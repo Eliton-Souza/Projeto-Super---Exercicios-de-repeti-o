@@ -1,0 +1,21 @@
+v1 = [ 0.,  0.,  2.,  0.,  0.,  2.,  5.,  1.,  5.,  4.,  5.,  9.,  9.,
+        3.,  7., 10., 19., 11., 15., 20.,  7., 22.,  0.,  7.,  9., 21.,
+       14., 26., 13., 10., 18., 14., 24., 45., 11., 28., 22., 41., 73.,
+       31., 41., 56., 20., 11., 35., 31., 52., 79., 32., 29.,  2., 48.,
+       58., 37., 33., 49.,  6.,  8., 58., 24., 42.]
+
+x= sorted(v1)
+y= x[0]
+z= x[-1]
+
+def soma(x):
+    soma = 0
+    for i in x:
+        soma = soma + i
+    return soma
+
+    
+print ("O menor valor da lista eh: ",y)
+print ("O maior valor da lista eh: ",z)
+print ("A somas dos valores da lista eh: ",soma(x))
+
