@@ -1,0 +1,22 @@
+x= int(input("Digite um número para descobrir se eh primo: "))
+
+def primo(x):
+    if x==2 or x==3 or x==5 or x==7:
+        return ("Numero eh primo")
+    if x<=1:
+        return ("Numero nao eh primo")
+    if (x%2)==0:
+        return ("Numero nao eh primo")
+    if (x%3)==0:
+        return ("Numero nao eh primo")
+    if (x%5)==0:
+        return ("Numero nao eh primo")
+    if (x%7)==0:
+        return ("Numero nao eh primo")
+    else:
+        return ("Numero eh primo")
+    print (x)
+
+print(primo(x))
+
+    
